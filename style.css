@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.btn, .btn-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.btn {
+    background: #fff;
+    color: #0077cc;
+}
+.btn:hover {
+    background: #005fa3;
+    color: #fff;
+}
+.btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn-outline:hover {
+    background: #005fa3;
+    border-color: #005fa3;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+section {
+    padding: 1px 0;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #0077cc;
+    font-size: 2em;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+.maroon-text {
+  color: #800000;
+}
+.job {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    background: #0077cc;
+    color: white;
+    padding: 20px 0;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
